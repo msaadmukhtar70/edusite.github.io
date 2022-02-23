@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+header{
+    position: sticky;
+    top: 0;
+  
+}
+.logo{
+    height: 23px;
+    font-family: 'Shizuru', cursive;
+    position: absolute;
+    font-size: 26px;
+    padding: 11px;
+}
+.log_1{
+    color: white;
+}
+.log_2{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+left: 174px;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 19px 25px;
+font-size: 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+    
+
+header{
+    
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+    background-color: black;
+    border-block-end: 1px solid white;
+}
+
+.home{
+position: relative;
+
+right: 0;
+
+bottom: 0;
+top: 0;
+right: 0;
+background-position: center;
+background-size: cover;
+font-size: 25px;
+color: white;
+overflow: hidden;
+background-color: black;
+height: 79vh;
+}
+.home-head{
+    position: relative;
+    top: 70px;
+left: 85px;
+}
+.bg-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+width: 100%;
+
+}
+.btn{
+    font-size: 21px;
+background: none;
+border-radius: 33px;
+padding: 10px; 
+ color: white;
+ background-color: orange;
+ border: none;
+}
+img{
+    position: sticky;
+    top: 0;
+    width: 99vw;
+    height: 95vh;
+    opacity: 45%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+
+.contain{
+    background-color: orange;
+}
+.hdd{
+    font-size: 23px;
+    padding: 42px;
+}
+.container{
+    
+    background-color: orange;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+background-color: black;
+width: 223px;
+height: 216px;
+color: white;
+padding: 12px;
+box-shadow: 7px 7px 6px black;
+border: 2px solid white;
+border-radius: 12px;
+}
+.cpy{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+}
+.fa-brands{
+    color: white;
+    font-size: 31px; 
+     padding: 14px 66px;
+
+}

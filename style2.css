@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+body{
+    background-color: gray;
+}
+.cnn{
+    position: relative;
+    right: 50px;
+}
+.dp{
+    background-image: url(dp.jfif);
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 127px;
+    position: relative;
+    top: 51px;
+left: 176px;
+}
+.hdd1{
+    font-size: 52px;
+    font-family: 'Noto Serif Display', serif;
+    position: relative;
+    top: 53px;
+    left: 96px;
+  }
+    
+    .per{
+        font-size: 31px;
+        
+        position: relative;
+        top: 60px;
+        left: 194px;
+        font-size: 31px;
+        font-style: italic;
+      }
+    
+    
+    .con1{
+        height: 80vh;
+        width: 45vw;
+       
+        display: inline-block;
+        background-color: white;
+        padding: 108px 43px;
+    
+    }
+    .con2{
+        height: 80vh;
+        width: 45vw;
+        
+        display: inline-block;
+        background-color: orange;
+        text-align: center;
+        padding: 108px 42px;
+        line-height: 1.9;
+    }
+    .man{
+        display: flex;
+        padding: 90px;
+    }
+    .hdd2{
+        font-family: 'Noto Serif Display', serif;
+    }
+    .per2{
+        font-size: 20px;
+    }
+    .cnn2{
+        position: relative;
+        top: 45px;
+    }
